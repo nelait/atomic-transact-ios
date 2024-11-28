@@ -14,12 +14,12 @@
 		BFAFC5EA26E9611C00794554 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAFC5E926E9611C00794554 /* TabBarView.swift */; };
 		BFAFC5EC26E962B100794554 /* TransactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAFC5EB26E962B100794554 /* TransactData.swift */; };
 		BFAFC5EE26E965A000794554 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAFC5ED26E965A000794554 /* MainView.swift */; };
-		BFB96FD42C7E278000C22CE4 /* QuantumIOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB96FCE2C7E274100C22CE4 /* QuantumIOS.xcframework */; };
-		BFB96FD52C7E278000C22CE4 /* QuantumIOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFB96FCE2C7E274100C22CE4 /* QuantumIOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BFB96FD62C7E278200C22CE4 /* AtomicTransact.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB96FD02C7E274100C22CE4 /* AtomicTransact.xcframework */; };
-		BFB96FD72C7E278200C22CE4 /* AtomicTransact.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFB96FD02C7E274100C22CE4 /* AtomicTransact.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BFB96FD82C7E278300C22CE4 /* MuppetIOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB96FCF2C7E274100C22CE4 /* MuppetIOS.xcframework */; };
-		BFB96FD92C7E278300C22CE4 /* MuppetIOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFB96FCF2C7E274100C22CE4 /* MuppetIOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE10DC332CF91CC900AC9477 /* AtomicTransact.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE10DC322CF91CC900AC9477 /* AtomicTransact.xcframework */; };
+		CE10DC342CF91CC900AC9477 /* AtomicTransact.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE10DC322CF91CC900AC9477 /* AtomicTransact.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE10DC362CF91CCF00AC9477 /* MuppetIOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE10DC352CF91CCF00AC9477 /* MuppetIOS.xcframework */; };
+		CE10DC372CF91CCF00AC9477 /* MuppetIOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE10DC352CF91CCF00AC9477 /* MuppetIOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE10DC392CF91CD600AC9477 /* QuantumIOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE10DC382CF91CD600AC9477 /* QuantumIOS.xcframework */; };
+		CE10DC3A2CF91CD600AC9477 /* QuantumIOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE10DC382CF91CD600AC9477 /* QuantumIOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,9 +29,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BFB96FD72C7E278200C22CE4 /* AtomicTransact.xcframework in Embed Frameworks */,
-				BFB96FD52C7E278000C22CE4 /* QuantumIOS.xcframework in Embed Frameworks */,
-				BFB96FD92C7E278300C22CE4 /* MuppetIOS.xcframework in Embed Frameworks */,
+				CE10DC372CF91CCF00AC9477 /* MuppetIOS.xcframework in Embed Frameworks */,
+				CE10DC3A2CF91CD600AC9477 /* QuantumIOS.xcframework in Embed Frameworks */,
+				CE10DC342CF91CC900AC9477 /* AtomicTransact.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,10 +48,10 @@
 		BFAFC5E926E9611C00794554 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		BFAFC5EB26E962B100794554 /* TransactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactData.swift; sourceTree = "<group>"; };
 		BFAFC5ED26E965A000794554 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		BFB96FCE2C7E274100C22CE4 /* QuantumIOS.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:V487U9G264:Atomic FI Inc."; lastKnownFileType = wrapper.xcframework; name = QuantumIOS.xcframework; path = "../../../atomic-transact-ios/artifacts/QuantumIOS.xcframework"; sourceTree = "<group>"; };
-		BFB96FCF2C7E274100C22CE4 /* MuppetIOS.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:V487U9G264:Atomic FI Inc."; lastKnownFileType = wrapper.xcframework; name = MuppetIOS.xcframework; path = "../../../atomic-transact-ios/artifacts/MuppetIOS.xcframework"; sourceTree = "<group>"; };
-		BFB96FD02C7E274100C22CE4 /* AtomicTransact.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:V487U9G264:Atomic FI Inc."; lastKnownFileType = wrapper.xcframework; name = AtomicTransact.xcframework; path = "../../../atomic-transact-ios/artifacts/AtomicTransact.xcframework"; sourceTree = "<group>"; };
 		BFF466CA26EE857C00BFCF3F /* Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example.entitlements; sourceTree = "<group>"; };
+		CE10DC322CF91CC900AC9477 /* AtomicTransact.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:V487U9G264:Atomic FI Inc."; lastKnownFileType = wrapper.xcframework; name = AtomicTransact.xcframework; path = "../../../Documents/atomic-transact-ios-Xcode15.3/artifacts/AtomicTransact.xcframework"; sourceTree = "<group>"; };
+		CE10DC352CF91CCF00AC9477 /* MuppetIOS.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:V487U9G264:Atomic FI Inc."; lastKnownFileType = wrapper.xcframework; name = MuppetIOS.xcframework; path = "../../../Documents/atomic-transact-ios-Xcode15.3/artifacts/MuppetIOS.xcframework"; sourceTree = "<group>"; };
+		CE10DC382CF91CD600AC9477 /* QuantumIOS.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:V487U9G264:Atomic FI Inc."; lastKnownFileType = wrapper.xcframework; name = QuantumIOS.xcframework; path = "../../../Documents/atomic-transact-ios-Xcode15.3/artifacts/QuantumIOS.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB96FD42C7E278000C22CE4 /* QuantumIOS.xcframework in Frameworks */,
-				BFB96FD62C7E278200C22CE4 /* AtomicTransact.xcframework in Frameworks */,
-				BFB96FD82C7E278300C22CE4 /* MuppetIOS.xcframework in Frameworks */,
+				CE10DC362CF91CCF00AC9477 /* MuppetIOS.xcframework in Frameworks */,
+				CE10DC392CF91CD600AC9477 /* QuantumIOS.xcframework in Frameworks */,
+				CE10DC332CF91CC900AC9477 /* AtomicTransact.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +71,9 @@
 		BF82CFC52C5182A400DD616C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BFB96FD02C7E274100C22CE4 /* AtomicTransact.xcframework */,
-				BFB96FCF2C7E274100C22CE4 /* MuppetIOS.xcframework */,
-				BFB96FCE2C7E274100C22CE4 /* QuantumIOS.xcframework */,
+				CE10DC382CF91CD600AC9477 /* QuantumIOS.xcframework */,
+				CE10DC352CF91CCF00AC9477 /* MuppetIOS.xcframework */,
+				CE10DC322CF91CC900AC9477 /* AtomicTransact.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -32,7 +32,7 @@ struct MainView: View {
 	var body: some View {
 		NavigationView {
 			Form {
-				if data.publicToken == "" {
+				if data.publicToken == "test-9d186450-3fe7-4bda-9598-347c2ef2702b" {
 					VStack(alignment: .center, spacing: 8) {
 						HStack {
 							Image(systemName: "exclamationmark.triangle")

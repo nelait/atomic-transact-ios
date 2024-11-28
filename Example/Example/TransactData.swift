@@ -29,7 +29,7 @@ class TransactData: ObservableObject {
 	@AppStorage("URLOption") var urlOption = URLOption.production
 	@AppStorage("customURLPath") var customURLPath = ""
 	@AppStorage("showFullscreen") var showFullscreen = false
-	@AppStorage("PublicToken") var publicToken = ""
+	@AppStorage("PublicToken") var publicToken = "test-9d186450-3fe7-4bda-9598-347c2ef2702b"
 	@AppStorage("DarkMode") var darkMode = DarkModeOption.system
 	@Published var brandColor = Color.blue
 	@Published var overlayColor = Color.gray
